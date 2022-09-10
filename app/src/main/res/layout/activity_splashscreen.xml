@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logo_unand"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e-KP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departemen Sistem Informasi"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universitas Andalas"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
