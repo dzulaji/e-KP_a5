@@ -20,10 +20,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
         android:text="e-KP"
-        android:textSize="30dp"
         android:textColor="@color/black"
-        android:layout_marginLeft="135dp"/>
+        android:textSize="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
